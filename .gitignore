@@ -1,0 +1,22 @@
+
+
+# this is .gitignore file.
+# 以下是忽略的文件
+
+/*
+# 选择工程需要的文件
+!/project_src
+
+.*
+# 排除所有.开头的隐藏文件:
+
+
+# 除了
+!.gitignore
+# 工程generate脚本
+!generate_project.bat
+!project_1.tcl
+# 工程bin generate脚本
+!generate_bin.bat
+!pcie_write_cfgmem.tcl
+# !README.md
